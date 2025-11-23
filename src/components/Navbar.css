@@ -1,0 +1,38 @@
+.navbar {
+  background-color: white;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.navbar button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #666;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 0.3s;
+  font-weight: 500;
+}
+
+.navbar button:hover {
+  color: #FF6B00;
+}
+
+.navbar button.active {
+  color: #FF6B00;
+  font-weight: bold;
+  border-bottom: 3px solid #FF6B00;
+}
