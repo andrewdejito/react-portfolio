@@ -18,7 +18,7 @@ export default function Projects() {
   description: 'A web-based encryption and decryption tool built with JavaScript, HTML, and CSS. Allows users to securely encode and decode messages using customizable ciphers.',
   image: '🔐',
   tags: ['JavaScript', 'HTML', 'CSS', 'Security', 'Encryption'],
-  link: '#'
+  link: 'https://encryption-and-decryption-xi.vercel.app/'
 },
 {
   id: 3,
